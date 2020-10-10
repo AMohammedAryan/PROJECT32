@@ -30,13 +30,13 @@ class Block{
     else {
       World.remove(world, this.body);
 
-      this.Visibilty = this.Visibility - 5;
+      this.Visibility = this.Visibility - 5;
     }
   }
 
   Score(){
 
-    if(this.Visbilty < 0 && this.Visibility > 1005){
+    if(this.Visibility < 0 && this.Visibility > -1005){
 
       score ++;
     }
